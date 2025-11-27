@@ -1,0 +1,236 @@
+i am goin to create my portfolio website i need html file for that as main structure of my website.
+
+The structure is likely follows
+just make the structure if there is styling part or any other which cant optimize in html leave them i need string prffecianal structure
+
+1.Header (Top-Fixed Navigation Bar)
+
+Location: Always visible at the top (sticky while scrolling).
+
+Content:
+
+Left: Your name or logo — e.g., Vishwa Srinath (clicking it returns to top)
+
+Right: Clean horizontal navigation menu:
+
+Home | Projects | Skills | About | Certifications | Contact
+
+
+Optional (Right Corner):
+
+🌙 Light/Dark Mode Toggle
+
+Resume Button (“Resume 📄”)
+
+Small GitHub/LinkedIn icons
+
+Style Tips:
+
+Height: ~60–70 px
+
+Background: transparent at top → turns solid (e.g., #0a0a0a) on scroll
+
+Font: medium weight, all caps or small caps
+
+2️⃣ Hero Section (“Landing Banner”)
+
+Location: Just below header; fills full screen height (100 vh).
+
+Content layout:
+
+Left side (≈60 %)
+
+👋 Small intro line: Hi, I’m
+
+Big headline (H1): Vishwa Srinath
+
+Sub-headline: Computer Science & Engineering Student
+
+Short tagline (1–2 lines):
+
+Passionate about building cloud-powered, efficient software systems.
+
+Two main CTAs:
+
+View My Projects (scrolls to Projects section)
+
+Download Resume or Contact Me
+
+Right side (≈40 %)
+
+Your professional photo or subtle 3-D/animated illustration
+(e.g., a coding desk, device mockups, or your avatar)
+
+Style Tips:
+
+Clean background (light gradient or slight pattern)
+
+Use a soft scroll-down arrow hint ↓
+
+3️⃣ Projects Section (“My Work”)
+
+Location: Immediately after hero; 100 vh–150 vh depending on number of projects.
+
+Content layout:
+
+Title: Featured Projects
+
+Subtitle (small): Here are a few things I’ve built recently.
+
+Grid Layout:
+
+2–3 columns on desktop → 1 column on mobile
+
+Each card contains:
+
+Project image / screenshot
+
+Title
+
+Short 2-line description
+
+Tech stack badges (React • AWS • Python)
+
+Buttons: [Live Demo] [GitHub] [Details]
+
+Optional: “Show All Projects” button linking to /projects page
+
+Style Tips:
+
+Use hover animation (slight scale/shine)
+
+Keep consistent image size
+
+4️⃣ Skills Section
+
+Location: Below projects.
+
+Content layout:
+
+Title: Technical Skills
+
+Sub-Title: Technologies and tools I work with.
+
+Two-column grid or categorized tabs:
+
+Programming: Python, C, Java, JavaScript
+
+Web: HTML, CSS, React, Node.js
+
+Databases: MySQL, Firebase
+
+Cloud & DevOps: AWS, Docker, Git, GitHub
+
+Other Tools: VS Code, Postman, MATLAB, Figma
+
+Optionally, add small icons/logos for each skill.
+
+Style Tips:
+
+Use badges or progress indicators (no bars beyond 80 %)
+
+Minimalistic spacing, uniform icons
+
+5️⃣ About Section
+
+Location: Middle-bottom (after skills).
+
+Content layout:
+
+Left: Photo or illustration (different from hero image)
+
+Right:
+
+Heading: About Me
+
+2–3 short paragraphs:
+
+Who you are
+
+Your education (University of Moratuwa, Sri Lanka)
+
+Key interests (Cloud Computing, DevOps, AI, Open Source)
+
+What you aim to do next
+
+Small “Download Resume” or “View LinkedIn” button
+
+Style Tips:
+
+Soft background color (contrast from previous section)
+
+Keep text under ~150 words
+
+6️⃣ Certifications / Achievements Section
+
+Location: Just before Contact section.
+
+Content layout:
+
+Title: Certifications & Achievements
+
+Grid/List:
+
+AWS Cloud Practitioner Essentials (link to credential)
+
+Docker Fundamentals
+
+Coursera / Simplilearn courses
+
+University awards / Hackathons
+
+Include small logos or certificate icons for credibility.
+
+7️⃣ Contact Section (Final Call-to-Action)
+
+Location: Bottom-most main section.
+
+Content layout:
+
+Heading: Let’s Connect
+
+Short text:
+
+Have a project idea, collaboration, or opportunity? Feel free to reach out.
+
+Left side: Contact form
+
+Name, Email, Message, Send button
+
+Simple, functional; use AWS SES or Formspree later
+
+Right side: Quick links
+
+📧 Email (copy icon)
+
+🔗 LinkedIn
+
+💻 GitHub
+
+🧠 Kaggle / HackerRank (if you wish)
+
+Style Tips:
+
+Background: accent color (dark or gradient)
+
+Large, clean typography
+
+8️⃣ Footer (Persistent Bottom)
+
+Location: Very bottom of page.
+
+Content:
+
+“© 2025 Vishwa Srinath. All rights reserved.”
+
+“Made with ❤️ using React & AWS S3.”
+
+Small social media icons (centered or right-aligned).
+
+Style Tips:
+
+Simple, low-contrast text (gray on dark background)
+
+Height ~60 px
+
+

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Vishwa Srinath | Portfolio</title>
+	<meta name="description" content="Portfolio of Vishwa Srinath — Computer Science & Engineering student. Projects, skills, certifications, and contact." />
+	<link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+	<!-- Skip link for accessibility -->
+	<a href="#main" class="skip-link">Skip to main content</a>
+
+	<!-- Name banner (top band with large title) -->
+	<div class="name-banner" role="region" aria-label="Site title banner">
+	  <div class="name-inner">
+		<h1 class="site-title">Vishwa Srinath</h1>
+	  </div>
+	</div>
+
+	<!-- Header / Topbar (home page). Nav buttons link to separate pages. -->
+		<header id="top" role="banner">
+			<nav aria-label="Primary" role="navigation" class="topbar" role="menubar">
+				<a role="menuitem" class="active" href="structure.html">Home</a>
+				<a role="menuitem" href="projects.html">Projects</a>
+				<a role="menuitem" href="certifications.html">Certifications</a>
+				<a role="menuitem" href="personal.html">Personal</a>
+				<a role="menuitem" href="skills.html">Skills</a>
+				<a role="menuitem" href="about.html">About</a>
+				<a role="menuitem" href="#contact">Contact</a>
+			</nav>
+		</header>
+
+	<main id="main" tabindex="-1">
+	  <!-- Home / Hero (home page content ends here) -->
+	  <section id="home" aria-label="Hero">
+		<div class="hero-content">
+		  <div class="hero-left">
+			<p class="intro">Hi, I’m</p>
+			<h1 class="headline">Vishwa Srinath</h1>
+			<p class="subhead">Computer Science &amp; Engineering Student</p>
+			<p class="tagline">Passionate about building cloud-powered, efficient software systems.</p>
+						<div class="hero-ctas">
+							<a class="cta primary" href="projects.html">View My Projects</a>
+							<a class="cta secondary" href="#contact">Contact Me</a>
+						</div>
+		  </div>
+		</div>
+		<div class="scroll-hint" aria-hidden="true">↓</div>
+	  </section>
+
+	  <!-- Contact remains on home page so header 'Contact' jumps here -->
+	  <section id="contact" aria-labelledby="contact-title">
+		<header>
+		  <h2 id="contact-title">Let’s Connect</h2>
+		  <p>Have a project idea, collaboration, or opportunity? Feel free to reach out.</p>
+		</header>
+
+		<div class="contact-content">
+		  <section class="contact-form" aria-label="Contact form">
+			<form action="#" method="post">
+			  <div class="form-field">
+				<label for="name">Name</label>
+				<input id="name" name="name" type="text" autocomplete="name" required />
+			  </div>
+			  <div class="form-field">
+				<label for="email">Email</label>
+				<input id="email" name="email" type="email" autocomplete="email" required />
+			  </div>
+			  <div class="form-field">
+				<label for="message">Message</label>
+				<textarea id="message" name="message" rows="5" required></textarea>
+			  </div>
+			  <button type="submit">Send</button>
+			</form>
+		  </section>
+
+		  <aside class="contact-links" aria-label="Quick links">
+			<ul>
+			  <li><a href="mailto:your.email@example.com" aria-label="Send email">📧 Email</a></li>
+			  <li><a href="#" aria-label="Open LinkedIn profile">🔗 LinkedIn</a></li>
+			  <li><a href="#" aria-label="Open GitHub profile">💻 GitHub</a></li>
+			  <li><a href="#" aria-label="Open Kaggle or HackerRank profile">🧠 Kaggle / HackerRank</a></li>
+			</ul>
+		  </aside>
+		</div>
+	  </section>
+	</main>
+
+	<footer id="footer" role="contentinfo">
+	  <p>© 2025 Vishwa Srinath. All rights reserved.</p>
+	  <p>Made with ❤️ using React &amp; AWS S3.</p>
+	  <div class="footer-social">
+		<a href="#" aria-label="GitHub">GitHub</a>
+		<a href="#" aria-label="LinkedIn">LinkedIn</a>
+	  </div>
+	</footer>
+
+	<script src="scripts.js"></script>
+  </body>
+</html>
+
